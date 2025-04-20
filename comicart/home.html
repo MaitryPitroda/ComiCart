@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ComiCart</title>
+
+    <link
+      rel="shortcut icon"
+      href="./favicon_io (3)/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+          <h1>comicart</h1>
+          <div id="menu-icon" class="bx bx-menu"><i id="bar" class="fa-solid fa-bars"></i></div>
+          <ul class="navbar">
+            <li><a href="#home" class="home-active">home</a></li>
+            <li><a href="#categories">categories</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#customers">reviews</a></li>
+          </ul>
+          <ul class="navicons">
+            <li id="search"><i class="fa-solid fa-magnifying-glass"></i></li>
+            <li id="cart"><i class="fa-solid fa-cart-shopping"></i></li>
+            <li id="login"><a href="./loginpage.html">login</a></li>
+          </ul>
+    </header>
+
+    <main>
+      <section class="home" id="home">
+        <div class="swiper container">
+          <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span id="element1">Let's Explore</span>
+                <h3>
+                  Unlock Hidden Stories:<br />
+                  Your Comic Journey Awaits
+                </h3>
+                <a href="#" class="btn">Buy Now</a>
+              </div>
+              <div class="image">
+                <img src="slide-1.png" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span id="element2">Best Selling Comic</span>
+                <h3>
+                  Your Universe of Comics.<br />
+                  All Genres, One Place.
+                </h3>
+                <a href="#" class="btn">Buy Now</a>
+              </div>
+              <div class="image">
+                <img src="slide-2.jpeg" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span id="element3">New Release</span>
+                <h3>
+                  The Ultimate Comic Collection: <br />Discover Your Next
+                  Obsession
+                </h3>
+                <a href="#" class="btn">Buy Now</a>
+              </div>
+              <div class="image">
+                <img src="slide-3.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="categories" id="categories">
+        <div class="heading">
+          <h1>Browse our best one<br /><span>categories</span></h1>
+        </div>
+        <!-- container content -->
+        <div class="categories-continer">
+          <!-- box-1 -->
+          <div class="box box1">
+            <img src="./marvellogo.png" alt="">
+            <h2>marvel</h2>
+            <span>10 items</span>
+            <a href="./marvel.html"><i class="bx fa-solid fa-arrow-right"></i></a>
+          </div>
+          <!-- box-2 -->
+          <div class="box box2">
+            <img src="./mangalogo.png" alt="">
+            <h2>manga</h2>
+            <span>10 items</span>
+            <a href="./manga.html"><i class="bx fa-solid fa-arrow-right"></i></a>
+          </div>
+          <!-- box-3 -->
+          <div class="box box3">
+            <img src="./narutologo.png" alt="">
+            <h2>naruto</h2>
+            <span>10 items</span>
+            <a href="./naruto.html"><i class="bx fa-solid fa-arrow-right"></i></a>
+          </div>
+          <!-- box-4 -->
+          <div class="box box4">
+            <img src="./indielogo.png" alt="">
+            <h2>indie</h2>
+            <span>10 items</span>
+            <a href="./indie.html"><i class="bx fa-solid fa-arrow-right"></i></a>
+          </div>
+          <!-- box-5 -->
+          <div class="box box5">
+            <img src="./scifilogo.png" alt="">
+            <h2>science fiction</h2>
+            <span>10 items</span>
+            <a href="./sci-fi.html"><i class="bx fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </section>
+      <!-- products -->
+      <section class="categories" id="categories">
+        <div class="heading">
+          <h1>Browse our popular<br /><span>comics</span></h1>
+          <a href="#" class="btn"
+          >see all</a>
+        </div>
+        <!-- product content -->
+        <div class="products-container">
+          <!-- box-1 -->
+          <div class="box">
+            <img src="./batmandarkpatterns.jpg" alt="" />
+            <h2>batman darkpatterns</h2>
+            <h3 class="price"><span>₹1,348</span></h3>
+            <i id="cart" class="fa-solid fa-cart-shopping"></i>
+            <i id="heart" class="fa-solid fa-heart"></i>
+          </div>
+          <!-- box-2 -->
+          <div class="box">
+            <img src="./Tokyo Ghoul.jpg" alt="" />
+            <h2>batman darkpatterns</h2>
+            <h3 class="price"><span>₹478</span></h3>
+            <i id="cart" class="fa-solid fa-cart-shopping"></i>
+            <i id="heart" class="fa-solid fa-heart"></i>
+          </div>
+
+          <!-- box-3 -->
+          <div class="box">
+            <img src="./NarutoItachiStory.jpg" alt="" />
+            <h2>Naruto: Itachi's Story:Vol.1</h2>
+            <h3 class="price"><span>₹500</span></h3>
+            <i id="cart" class="fa-solid fa-cart-shopping"></i>
+            <i id="heart" class="fa-solid fa-heart"></i>
+          </div>
+          <!-- box-4 -->
+          <div class="box">
+            <img src="./Minor Arcana Vol. 1.jpg" alt="" />
+            <h2>Minor Arcana:Vol.1</h2>
+            <h3 class="price"><span>₹1,648</span></h3>
+            <i id="cart" class="fa-solid fa-cart-shopping"></i></i>
+            <i id="heart" class="fa-solid fa-heart"></i>
+          </div>
+          <!-- box-5
+          <div class="box">
+            <img src="./Annihilation Omnibus.jpg" alt="" />
+            <h2>Annihilation Omnibus</h2>
+            <h3 class="price"><span>₹3,594</span></h3>
+            <i id="cart" class="fa-solid fa-cart-shopping"></i></i>
+            <i id="heart" class="fa-solid fa-heart"></i>
+          </div>
+           box-6 
+          <div class="box">
+            <img src="./Aquaman.jpg" alt="" />
+            <h2>Aquaman: 80 Years of the King of the Seven Seas Vol. 1</h2>
+            <h3 class="price"><span>₹1,344</span></h3>
+            <i id="cart" class="fa-solid fa-cart-shopping"></i>
+            <i id="heart" class="fa-solid fa-heart"></i>
+          </div> -->
+          
+        </div>
+      </section>
+
+      <!-- about -->
+       <section class="about" id="about">
+        <img src="./aboutbg.png" alt="">
+        <div class="about-text">
+          <span>about us</span>
+        <p >ComiCart isn’t just about reading comics – it’s about living them.</p>
+        <p>Built for true comic enthusiasts, it’s a space where passion meets discovery. Whether you're into superheroes, manga, indie gems, or timeless classics, ComiCart brings fans together through a shared love for storytelling and art</p>
+        <a id="aboutbtn" href="#" class="btn">
+          learn more
+        </a>
+        </div>
+       </section>
+       <!-- customers -->
+       <section class="customers" id="customers">
+        <h2>Why customer's love us?</h2>
+        <div class="customer-container">
+          <!-- review1 -->
+          <div class="box">
+           
+            <div class="star">
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-regular fa-star" id="star"></i>
+            </div>
+            <p>"Super clean design and easy to navigate. I especially love how the homepage highlights trending comics — I always find something new to check out!"</p>
+            <div class="review-profile">
+              <img src="./profile-review-1.jpg" alt="">
+              <h3><i>-Smith</i></h3>
+            </div>
+          </div>
+          <!-- review2 -->
+          <div class="box">
+            
+            <div class="star">
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-regular fa-star-half-stroke" id="star"></i>
+            </div>
+            <p>"ComiCart brings the joy of comic book hunting online. From old favorites to new gems, it’s got everything in one place."</p>
+            <div class="review-profile">
+              <img src="./profile-review-2.jpg" alt="">
+              <h3><i>-Luca</i></h3>
+            </div>
+          </div>
+          <!-- review3 -->
+          <div class="box">
+            
+            <div class="star">
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+            </div>
+            <p>"As a lifelong comic fan, ComiCart feels like a dream come true. The layout is clean, it's easy to find what I love, and the collection is always growing."</p>
+            <div class="review-profile">
+              <img src="./profile-review-3.jpg" alt="">
+              <h3><i>-Rhea</i></h3>
+            </div>
+          </div>
+        </div>
+       </section>
+    </main>
+    
+    <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-section">
+              <h3>About Us</h3>
+              <p>Learn more about our company and our mission.</p>
+          </div>
+          <div class="footer-section">
+              <h3>Quick Links</h3>
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+              </ul>
+          </div>
+          <div class="footer-section">
+              <h3>Connect With Us</h3>
+              <p>Email: info@example.com</p>
+                <p>Phone: +91 1234567890</p>
+                <p>Ahmedabad, Gujarat, India</p>
+              <ul class="social-icons">
+                  <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          &copy; 2025 My Awesome Website. All rights reserved.
+      </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./home.js"></script>
+    <script src="./cart.js"></script>
+    <script src="payment.js"></script>
+  </body>
+</html>

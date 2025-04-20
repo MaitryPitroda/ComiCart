@@ -1,0 +1,75 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1.5s ease;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    width: 300px;
+    text-align: center;
+    animation: slideUp 1s ease;
+  }
+  
+  .container:hover {
+    transform: scale(1.03);
+  }
+  
+  input, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px #ccc;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 8px #1a2a6c;
+  }
+  
+  button {
+    background-color: #1a2a6c;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3c4fad;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #1a2a6c;
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
